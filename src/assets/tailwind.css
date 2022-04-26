@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.todos:nth-child(odd) {
+    color: blue;
+}
+.todos:nth-child(even) {
+    color: red;
+}
